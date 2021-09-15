@@ -14,3 +14,51 @@ a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.2);
 }
+nav {
+  font-size: 24px;
+  background-color: rgb(240, 250, 250);
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: larger;
+  padding: 10px 20px;
+}
+.nav-toggle {
+  padding: 5px;
+  border: 0px;
+  font-size: 20px;
+  color: rgb(94, 162, 189);
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 300ms linear;
+}
+.nav-toggle:hover {
+  color: darkcyan;
+  transform: rotate(180deg);
+}
+
+.links a {
+  color: lightgrey;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  display: block;
+  padding: 5px 18px;
+  transition: all 300ms linear;
+}
+.links a:hover {
+  background: rgb(34, 189, 181);
+  color: #000;
+  padding-left: 32px;
+}
+/* 기본으로 숨겨져있는 메뉴링크 */
+.links {
+  height: 0;
+  overflow: hidden;
+  transition: all 300ms linear;
+}
+/* Toggle Class */
+.show-links {
+  height: 200px;
+}
