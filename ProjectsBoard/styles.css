@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  letter-spacing: 2px;
+  background-color: aliceblue;
+}
+.projects-board {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0 30px;
+  text-align: center;
+}
+.container {
+  text-align: center;
+}
+.title {
+  font-size: 24px;
+  margin-top: 30px;
+}
+.underline {
+  height: 3px;
+  width: 240px;
+  background-color: skyblue;
+  margin: 10px auto 20px;
+}
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  gap: 3rem 2rem;
+  justify-items: center;
+}
+.project-item {
+  max-width: 400px;
+}
+.image {
+  display: block;
+  background-color: rgb(200, 230, 230);
+  object-fit: cover;
+  height: 200px;
+  border: 0.25rem solid rgba(122, 236, 236, 0.406);
+  border-radius: 10px;
+}
